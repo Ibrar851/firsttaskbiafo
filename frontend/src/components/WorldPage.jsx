@@ -188,12 +188,12 @@ export default function WorldPage() {
   };
 
   return (
-    <Container fluid className="p-5">
+    <Container fluid className="p-5" style={{fontFamily: "Times New Roman" }}>
       <Row className="g-3">
         {/* Column 1 */}
         <Col md={5}>
           <Card className="border-0 mb-3">
-            <h2 className="fw-bold">PM Shehbaz eliminates 0.25pc export surcharge</h2>
+            <h2 className="fw-bold" >PM Shehbaz eliminates 0.25pc export surcharge</h2>
             <Card.Img src={HeadlineImg} style={{ height: "250px", objectFit: "cover" }} />
             <Card.Body className="p-0 mt-2">
               <p style={{ fontSize: "16px" }}>

@@ -33,43 +33,206 @@ import r8 from "../assets/MostRead/readstory8.webp";
 
 const SAMPLE = {
   articles: [
-    { id: 1, title: "PTTrump designates Saudi Arabia as ‘major, non-Nato ally’I says Imran Khan’s sisters manhandled by police", description: "“And I’m just telling you now for the first time, because they wanted to keep a little secret for tonight,” Trump says of the designation, which only 19 other countries have previously received..", image: h1 },
-    { id: 2, title: "National Assembly committee reprimands PTA over slow internet", description: "Telecom sector regulator ordered to conduct comprehensive surveys and present a detailed report..", image: h2 },
-    { id: 3, title: "PTI says Imran Khan’s sisters manhandled, ‘violently detained’ by police while camped outside Adiala jail", description: "Imran's sisters say one of them dragged on the road; party says KP minister Meena Khan Afridi, MNA Shahid Khattak and others also subjected to violence..", image: h3 },
-    { id: 4, title: "Pakistan enters bunkering market with first facility", description: "Refuelling facility established for commercial shipping; bunkering at a port is process of supplying ships with fuel for propulsion and onboard machinery..", image: h4 },
-    { id: 5, title: "Govt says rooftop solar ‘not hurting’ grid", description: "Net metering contribution jumped 173pc to 726m units in 2024.", image: h5 },
-    { id: 6, title: "Karachi traffic police began issuing speeding fines without ‘fixed speed limits’ on city roads", description: "DIG says speed limits for different roads to be set after completion of road safety, engineering audit.", image: h6 },
-    { id: 7, title: "Rejection of contempt plea filed by PTI’s Salman Akram Raja against Adiala officials assailed", description: "Petition sought enforcement of IHC’s directives on visitation rights of Imran Khan with his legal team..", image: h7 },
-    { id: 8, title: "Technology startups flourish in Pakistan", description: "New incubators and funding opportunities foster innovation among youth.", image: h8 },
-    { id: 9, title: "MILITANCY: THE NEW FACE OF AL QAEDA", description: "More than two decades after 9/11, Al Qaeda hasn’t vanished — it’s adapted.", image: h9 },
-    { id: 10, title: "Sports: National cricket team wins series", description: "A thrilling victory secures Pakistan’s position at the top of the rankings.", image: h10 },
-    { id: 11, title: "Europe looks to catch up with US in AI race", description: "Concerns about US tech dominance grow as Europe's ties with Wash­ington become increasingly uneasy.", image: h11 },
-    { id: 12, title: "ENVIRONMENT: WHY CAN’T DELHI BREATHE?", description: "To hold the government to account for our city, we must first have a conception of the city as ours — all of ours", image: h12 },
+    {
+      id: 1,
+      title:
+        "PTTrump designates Saudi Arabia as ‘major, non-Nato ally’I says Imran Khan’s sisters manhandled by police",
+      description:
+        "“And I’m just telling you now for the first time, because they wanted to keep a little secret for tonight,” Trump says of the designation, which only 19 other countries have previously received..",
+      image: h1,
+    },
+    {
+      id: 2,
+      title: "National Assembly committee reprimands PTA over slow internet",
+      description:
+        "Telecom sector regulator ordered to conduct comprehensive surveys and present a detailed report..",
+      image: h2,
+    },
+    {
+      id: 3,
+      title:
+        "PTI says Imran Khan’s sisters manhandled, ‘violently detained’ by police while camped outside Adiala jail",
+      description:
+        "Imran's sisters say one of them dragged on the road; party says KP minister Meena Khan Afridi, MNA Shahid Khattak and others also subjected to violence..",
+      image: h3,
+    },
+    {
+      id: 4,
+      title: "Pakistan enters bunkering market with first facility",
+      description:
+        "Refuelling facility established for commercial shipping; bunkering at a port is process of supplying ships with fuel for propulsion and onboard machinery..",
+      image: h4,
+    },
+    {
+      id: 5,
+      title: "Govt says rooftop solar ‘not hurting’ grid",
+      description:
+        "Net metering contribution jumped 173pc to 726m units in 2024.",
+      image: h5,
+    },
+    {
+      id: 6,
+      title:
+        "Karachi traffic police began issuing speeding fines without ‘fixed speed limits’ on city roads",
+      description:
+        "DIG says speed limits for different roads to be set after completion of road safety, engineering audit.",
+      image: h6,
+    },
+    {
+      id: 7,
+      title:
+        "Rejection of contempt plea filed by PTI’s Salman Akram Raja against Adiala officials assailed",
+      description:
+        "Petition sought enforcement of IHC’s directives on visitation rights of Imran Khan with his legal team..",
+      image: h7,
+    },
+    {
+      id: 8,
+      title: "Technology startups flourish in Pakistan",
+      description:
+        "New incubators and funding opportunities foster innovation among youth.",
+      image: h8,
+    },
+    {
+      id: 9,
+      title: "MILITANCY: THE NEW FACE OF AL QAEDA",
+      description:
+        "More than two decades after 9/11, Al Qaeda hasn’t vanished — it’s adapted.",
+      image: h9,
+    },
+    {
+      id: 10,
+      title: "Sports: National cricket team wins series",
+      description:
+        "A thrilling victory secures Pakistan’s position at the top of the rankings.",
+      image: h10,
+    },
+    {
+      id: 11,
+      title: "Europe looks to catch up with US in AI race",
+      description:
+        "Concerns about US tech dominance grow as Europe's ties with Wash­ington become increasingly uneasy.",
+      image: h11,
+    },
+    {
+      id: 12,
+      title: "ENVIRONMENT: WHY CAN’T DELHI BREATHE?",
+      description:
+        "To hold the government to account for our city, we must first have a conception of the city as ours — all of ours",
+      image: h12,
+    },
   ],
   mostRead: [
-    { id: 1, title: "Football superstar Cristiano Ronaldo, billionaire Elon Musk among attendees of Trump’s dinner with Saudi prince", image: r1 },
-    { id: 2, title: "Crime and punishment: Sheikh Hasina’s conviction comes as lesson for all authoritarian rulers", image: r2 },
-    { id: 3, title: "Sheikh Hasina may yet be able to beat extradition, but not all has been in vain", image: r3 },
-    { id: 4, title: "Why ignoring issue of governance in GB may squander Pakistan’s strategic and economic future", image: r4 },
-    { id: 5, title: "Explainer: Why did a Cloudflare outage cause websites to go down?", image: r5 },
-    { id: 6, title: "What are the pitfalls for UK’s asylum system overhaul", image: r6 },
-    { id: 7, title: "Book Review: Arundhati Roy’s ‘Mother Mary Comes to Me’ confronts the complicated reality of motherhood", image: r7 },
-    { id: 8, title: "2026 FIFA World Cup draw picture gets clearer after dramatic night of action", image: r8 },
+    {
+      id: 1,
+      title:
+        "Football superstar Cristiano Ronaldo, billionaire Elon Musk among attendees of Trump’s dinner with Saudi prince",
+      image: r1,
+    },
+    {
+      id: 2,
+      title:
+        "Crime and punishment: Sheikh Hasina’s conviction comes as lesson for all authoritarian rulers",
+      image: r2,
+    },
+    {
+      id: 3,
+      title:
+        "Sheikh Hasina may yet be able to beat extradition, but not all has been in vain",
+      image: r3,
+    },
+    {
+      id: 4,
+      title:
+        "Why ignoring issue of governance in GB may squander Pakistan’s strategic and economic future",
+      image: r4,
+    },
+    {
+      id: 5,
+      title:
+        "Explainer: Why did a Cloudflare outage cause websites to go down?",
+      image: r5,
+    },
+    {
+      id: 6,
+      title: "What are the pitfalls for UK’s asylum system overhaul",
+      image: r6,
+    },
+    {
+      id: 7,
+      title:
+        "Book Review: Arundhati Roy’s ‘Mother Mary Comes to Me’ confronts the complicated reality of motherhood",
+      image: r7,
+    },
+    {
+      id: 8,
+      title:
+        "2026 FIFA World Cup draw picture gets clearer after dramatic night of action",
+      image: r8,
+    },
   ],
   business: [
-    { id: 1, title: "Rejection of contempt plea filed by PTI’s Salman Akram Raja against Adiala officials assailed", description: "Petition sought enforcement of IHC’s directives on visitation rights of Imran Khan with his legal team.", image: h7 },
-    { id: 2, title: "Technology startups flourish in Pakistan", description: "New incubators and funding opportunities foster innovation among youth.", image: h8 },
-    { id: 3, title: "MILITANCY: THE NEW FACE OF AL QAEDA", description: "More than two decades after 9/11, Al Qaeda hasn’t vanished — it’s adapted.", image: h9 },
+    {
+      id: 1,
+      title:
+        "Rejection of contempt plea filed by PTI’s Salman Akram Raja against Adiala officials assailed",
+      description:
+        "Petition sought enforcement of IHC’s directives on visitation rights of Imran Khan with his legal team.",
+      image: h7,
+    },
+    {
+      id: 2,
+      title: "Technology startups flourish in Pakistan",
+      description:
+        "New incubators and funding opportunities foster innovation among youth.",
+      image: h8,
+    },
+    {
+      id: 3,
+      title: "MILITANCY: THE NEW FACE OF AL QAEDA",
+      description:
+        "More than two decades after 9/11, Al Qaeda hasn’t vanished — it’s adapted.",
+      image: h9,
+    },
   ],
   tech: [
-    { id: 1, title: "Football superstar Cristiano Ronaldo", description: "Football superstar Cristiano Ronaldo, billionaire Elon Musk among attendees of Trump’s dinner with Saudi prince", image: h10 },
-    { id: 2, title: "Europe looks to catch up with US in AI race", description: "Concerns about US tech dominance grow as Europe's ties with Wash­ington become increasingly uneasy.", image: h11 },
-    { id: 3, title: "ENVIRONMENT: WHY CAN’T DELHI BREATHE?", description: "To hold the government to account for our city, we must first have a conception of the city as ours — all of ours", image: h12 },
+    {
+      id: 1,
+      title: "Football superstar Cristiano Ronaldo",
+      description:
+        "Football superstar Cristiano Ronaldo, billionaire Elon Musk among attendees of Trump’s dinner with Saudi prince",
+      image: h10,
+    },
+    {
+      id: 2,
+      title: "Europe looks to catch up with US in AI race",
+      description:
+        "Concerns about US tech dominance grow as Europe's ties with Wash­ington become increasingly uneasy.",
+      image: h11,
+    },
+    {
+      id: 3,
+      title: "ENVIRONMENT: WHY CAN’T DELHI BREATHE?",
+      description:
+        "To hold the government to account for our city, we must first have a conception of the city as ours — all of ours",
+      image: h12,
+    },
   ],
   videos: [
-    { id: 1, title: "Allied Bank promotes warehouse facility as a financing solution to support agricultural businesses" },
-    { id: 2, title: "LemFi introduces new savings account for UK immigrant community" },
-    { id: 3, title: "Master Changan Motors unveils three brands and eleven new models at PAPS 2025" },
+    {
+      id: 1,
+      title:
+        "Allied Bank promotes warehouse facility as a financing solution to support agricultural businesses",
+    },
+    {
+      id: 2,
+      title: "LemFi introduces new savings account for UK immigrant community",
+    },
+    {
+      id: 3,
+      title:
+        "Master Changan Motors unveils three brands and eleven new models at PAPS 2025",
+    },
   ],
 };
 
@@ -77,7 +240,7 @@ export default function HomePage() {
   const { articles, mostRead, business, tech, videos } = SAMPLE;
 
   return (
-    <Container fluid className="mt-3">
+    <Container fluid className="mt-3" style={{fontFamily: "Times New Roman" }}>
       <Container>
         <FeaturedHero article={articles[0]} />
 
@@ -126,10 +289,23 @@ export default function HomePage() {
             <div className="mt-4">
               <h6 className="mb-2">From the Magazine</h6>
               <Card className="mb-2 border-0">
-                <Card.Img src={h9} style={{ height: 120, objectFit: "cover" }} />
+                <Card.Img
+                  src={h9}
+                  style={{ height: 120, objectFit: "cover" }}
+                />
                 <Card.Body>
-                  <Card.Title style={{ fontSize: 14 }}>Magazine feature title</Card.Title>
-                  <div style={{ pointerEvents: "none", color: "#000", fontSize: 14 }}>Read →</div>
+                  <Card.Title style={{ fontSize: 14 }}>
+                    Magazine feature title
+                  </Card.Title>
+                  <div
+                    style={{
+                      pointerEvents: "none",
+                      color: "#000",
+                      fontSize: 14,
+                    }}
+                  >
+                    Read →
+                  </div>
                 </Card.Body>
               </Card>
             </div>
@@ -137,8 +313,13 @@ export default function HomePage() {
             <div className="mt-4">
               <h6 className="mb-2">Newsletter</h6>
               <Card className="p-3 border-0">
-                <p className="mb-2">Subscribe to get daily headlines from Dawn.</p>
-                <div className="btn btn-outline-dark btn-sm" style={{ pointerEvents: "none" }}>
+                <p className="mb-2">
+                  Subscribe to get daily headlines from Dawn.
+                </p>
+                <div
+                  className="btn btn-outline-dark btn-sm"
+                  style={{ pointerEvents: "none" }}
+                >
                   Subscribe
                 </div>
               </Card>

@@ -49,7 +49,7 @@ export default function TechPage() {
   };
 
   return (
-    <Container className="py-5">
+    <Container className="py-5" style={{fontFamily: "Times New Roman" }}>
 
       {/* =====================================================
           CONTAINER 1: HERO
@@ -65,11 +65,11 @@ export default function TechPage() {
 
           <Col md={6} className="d-flex flex-column justify-content-center">
             <Card.Body>
-              <Card.Title className="fw-bold" style={{ fontSize: "24px" }}>
+              <Card.Title className="fw-bold" style={{ fontSize: "24px",fontFamily: "Times New Roman", }}>
                 The age of surveillance: George Orwell’s 1984, now streaming in Pakistan
               </Card.Title>
 
-              <Card.Text style={{ fontSize: "16px" }}>
+              <Card.Text style={{ fontSize: "16px",fontFamily: "Times New Roman", }}>
                 As democratic institutions around the world grapple with declining public trust and as constitutional frameworks struggle to keep pace with technological advancement, the Pakistani example serves as a cautionary tale.
               </Card.Text>
             </Card.Body>
@@ -94,10 +94,10 @@ export default function TechPage() {
                 style={{ width: "100%", height: "180px", objectFit: "cover" }}
               />
               <Card.Body className="p-2">
-                <Card.Title style={{ fontSize: "15px" }}>
+                <Card.Title style={{ fontSize: "15px",fontFamily: "Times New Roman", }}>
                   Meta buried evidence of social media harm: US court filings
                 </Card.Title>
-                <Card.Text style={{ fontSize: "13px" }}>
+                <Card.Text style={{ fontSize: "13px",fontFamily: "Times New Roman", }}>
                 Meta scientists worked with survey firm Nielsen to gauge the effect of deactivating Facebook and Instagram..
                 </Card.Text>
               </Card.Body>
@@ -112,10 +112,10 @@ export default function TechPage() {
                 style={{ width: "100%", height: "180px", objectFit: "cover" }}
               />
               <Card.Body className="p-2">
-                <Card.Title style={{ fontSize: "15px" }}>
+                <Card.Title style={{ fontSize: "15px",fontFamily: "Times New Roman", }}>
                   Skibidi your 6-7: AFP’s five words of the year
                 </Card.Title>
-                <Card.Text style={{ fontSize: "13px" }}>
+                <Card.Text style={{ fontSize: "13px",fontFamily: "Times New Roman", }}>
                   2025 was the year when Generation Alpha slang entered everyday language and dictionaries with a vengeance.
                 </Card.Text>
               </Card.Body>
@@ -137,10 +137,10 @@ export default function TechPage() {
                       }}
                     />
                     <Card.Body className="p-2">
-                      <Card.Title style={{ fontSize: "15px" }}>
+                      <Card.Title style={{ fontSize: "15px",fontFamily: "Times New Roman", }}>
                         Authority members to operate under{i + 1}
                       </Card.Title>
-                      <Card.Text style={{ fontSize: "13px" }}>
+                      <Card.Text style={{ fontSize: "13px",fontFamily: "Times New Roman", }}>
                         Spicy K&N’s Fiery Fingers served with noodles, rice and a tangy homemade sauce, perfect for a flavour-packed meal.
                       </Card.Text>
                     </Card.Body>
@@ -158,10 +158,10 @@ export default function TechPage() {
                 style={{ width: "100%", height: "180px", objectFit: "cover" }}
               />
               <Card.Body className="p-2">
-                <Card.Title style={{ fontSize: "15px" }}>
+                <Card.Title style={{ fontSize: "15px",fontFamily: "Times New Roman", }}>
                   Malaysia says it plans to ban social media for under-16s from 2026
                 </Card.Title>
-                <Card.Text style={{ fontSize: "13px" }}>
+                <Card.Text style={{ fontSize: "13px",fontFamily: "Times New Roman", }}>
                   The government is reviewing global age-restriction models ahead of enforcing the rule next year.
                 </Card.Text>
               </Card.Body>

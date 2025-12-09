@@ -1,3 +1,4 @@
+// src/components/FeaturedHero.jsx
 import React from "react";
 import { Card } from "react-bootstrap";
 
@@ -5,6 +6,7 @@ export default function FeaturedHero({ article }) {
   if (!article) return null;
 
   return (
+    <div style={{fontFamily: "Times New Roman" }}>
     <Card className="mb-4 border-0">
       <div style={{ position: "relative" }}>
         <Card.Img
@@ -17,6 +19,8 @@ export default function FeaturedHero({ article }) {
             maxHeight: "calc(100vh - 150px)",
           }}
         />
+
+        {/* Overlay for text */}
         <div
           style={{
             position: "absolute",
@@ -28,12 +32,30 @@ export default function FeaturedHero({ article }) {
             color: "white",
           }}
         >
-          <h2 style={{ fontSize: 32, fontWeight: 700, marginBottom: 10 }}>
+          <h2
+            style={{
+              fontSize: "2rem",
+              fontWeight: 700,
+              marginBottom: "10px",
+              fontFamily: "Times New Roman",
+              lineHeight: 1.2,
+            }}
+          >
             {article.title}
           </h2>
-          <p style={{ fontSize: 16, lineHeight: 1.4, opacity: 0.9, marginBottom: 12 }}>
+
+          <p
+            style={{
+              fontSize: "1rem",
+              lineHeight: 1.4,
+              opacity: 0.9,
+              marginBottom: "12px",
+              fontFamily: "Georgia, serif",
+            }}
+          >
             {article.description}
           </p>
+
           <div
             style={{
               display: "inline-block",
@@ -44,11 +66,14 @@ export default function FeaturedHero({ article }) {
               fontSize: 14,
               borderRadius: 2,
               pointerEvents: "none", // disables link
-            }}>
+              fontFamily: "Times New Roman",
+            }}
+          >
             Read on Dawn.com →
           </div>
         </div>
       </div>
     </Card>
+    </div>
   );
 }

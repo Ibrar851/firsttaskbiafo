@@ -118,13 +118,13 @@ const heds = [
 
 export default function PrismPage() {
   return (
-    <>
+    <div style={{fontFamily: "Times New Roman" }}>
       {/* Top Navbar */}
       <Container
         fluid
         className="py-3 px-4 d-flex justify-content-between align-items-center"
       >
-        <h2 className="mb-0 fw-bold" style={{ fontFamily: "Georgia, serif" }}>
+        <h2 className="mb-0 fw-bold" style={{ fontFamily: "Times New Roman", }}>
           DAWN
         </h2>
         <h3
@@ -163,7 +163,7 @@ export default function PrismPage() {
               style={{
                 fontSize: "2.4rem",
                 lineHeight: 1.3,
-                fontFamily: "Georgia, serif",
+                fontFamily: "Times New Roman",
               }}
             >
               The crisis no one sees: How climate <br /> change is rewriting
@@ -230,7 +230,7 @@ export default function PrismPage() {
                 fontSize: "1.4rem",
                 lineHeight: 1.6,
                 maxWidth: "600px",
-                fontFamily: "Georgia, serif",
+               fontFamily: "Times New Roman",
               }}
             >
               We bring you thoughtful, persuasive articles anchored in
@@ -257,14 +257,14 @@ export default function PrismPage() {
               <Col lg={6} className="text-start pe-3">
                 <h3
                   style={{
-                    fontFamily: "Georgia, serif",
+                    fontFamily: "Times New Roman",
                     fontSize: "1.2rem",
                     marginBottom: "5px",
                   }}
                 >
                   {item.title}
                 </h3>
-                <p style={{ fontFamily: "Georgia, serif", marginTop: "5px" }}>
+                <p style={{ fontFamily: "Times New Roman", marginTop: "5px" }}>
                   {item.author}
                 </p>
               </Col>
@@ -293,6 +293,6 @@ export default function PrismPage() {
           </React.Fragment>
         ))}
       </Container>
-    </>
+    </div>
   );
 }

@@ -10,10 +10,10 @@ import {
   FaEnvelope,
 } from "react-icons/fa6";
 
-// ------- IMPORT LOGO AT TOP -------
+// ------- IMPORT LOGO -------
 import Logo from "../assets/Archive/logo.jpg";
 
-// ------- IMPORT ALL IMAGES -------
+// ------- IMPORT NEWS IMAGES -------
 import Hed1 from "../assets/Archive/hed1.webp";
 import Hed2 from "../assets/Archive/hed2.webp";
 import Hed3 from "../assets/Archive/hed3.webp";
@@ -160,10 +160,12 @@ export default function ArchivePage() {
   ];
 
   return (
-    <Container className="py-5 p-6 m-0">
-      {/* ---------------- MINI CALENDAR BAR (Screenshot Style) ---------------- */}
+    <Container
+      className="py-5 p-6 m-0"
+      style={{ fontFamily: "Times New Roman", }}
+    >
+      {/* ---------------- MINI CALENDAR BAR ---------------- */}
       <div style={{ marginBottom: "3px" }}>
-        {/* MINI BAR ROW */}
         <div
           style={{
             display: "flex",
@@ -173,14 +175,11 @@ export default function ArchivePage() {
           }}
           onClick={() => setShowCalendar(!showCalendar)}
         >
-          {/* Calendar Icon */}
           <img
             src="https://cdn-icons-png.flaticon.com/512/747/747310.png"
             alt="calendar"
             style={{ width: "30px" }}
           />
-
-          {/* DATE BOX */}
           <div
             style={{
               border: "1px solid #bfbfbf",
@@ -199,7 +198,6 @@ export default function ArchivePage() {
           </div>
         </div>
 
-        {/* FULL CALENDAR */}
         {showCalendar && (
           <div className="mt-3 shadow-sm p-3" style={{ width: "320px" }}>
             <Calendar onChange={setValue} value={value} />
@@ -217,7 +215,6 @@ export default function ArchivePage() {
             marginTop: "45px",
           }}
         ></div>
-
         <img
           src={Logo}
           alt="logo"
@@ -234,7 +231,7 @@ export default function ArchivePage() {
 
       {/* ---------------- NEWS CARDS ---------------- */}
       {HedItems.map((item) => (
-        <Card className="mb-3" key={item.id}>
+        <Card className="mb-3" style={{fontFamily: "Times New Roman" }} key={item.id}>
           <Card.Body>
             <Row className="align-items-start">
               <Col xs={12} md={3}>
@@ -244,11 +241,9 @@ export default function ArchivePage() {
                   className="img-fluid mb-3 mb-md-0"
                 />
               </Col>
-
               <Col xs={12} md={9}>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text className="text-muted">{item.description}</Card.Text>
-
                 <div className="d-flex gap-3 mt-2">
                   <FaFacebookF size={20} style={{ cursor: "pointer" }} />
                   <FaWhatsapp size={20} style={{ cursor: "pointer" }} />
@@ -261,7 +256,7 @@ export default function ArchivePage() {
         </Card>
       ))}
 
-      {/* ---------------- Existing Bottom Calendar (NOT touched) ---------------- */}
+      {/* ---------------- BOTTOM CALENDAR ---------------- */}
       <div className="mb-4 border-0 shadow-sm p-3 align-items-center">
         <Calendar onChange={setValue} value={value} className="p-3 shadow-sm" />
       </div>

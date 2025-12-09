@@ -1,3 +1,4 @@
+// src/components/MostRead.jsx
 import React from "react";
 import { ListGroup, Row, Col, Image } from "react-bootstrap";
 
@@ -28,10 +29,11 @@ const IMAGES = [
 
 export default function MostRead({ items }) {
   return (
-    <div>
-      <h5 className="mb-3" style={{ fontWeight: 700, fontSize: 18 }}>
+    <div style={{fontFamily: "Times New Roman" }}>
+      <h5 className="mb-3" style={{ fontWeight: 700, fontSize: 18, fontFamily: "Times New Roman", }}>
         Most Read
       </h5>
+
       <ListGroup variant="flush">
         {items.map((it, idx) => (
           <ListGroup.Item
@@ -49,9 +51,14 @@ export default function MostRead({ items }) {
                   style={{ height: 40, width: 40, objectFit: "cover" }}
                 />
               </Col>
+
               <Col xs={9} sm={10}>
-                <span style={{ fontWeight: 700, marginRight: 6 }}>{idx + 1}.</span>
-                <span style={{ color: "#000", pointerEvents: "none" }}>{it.title}</span>
+                <span style={{ fontWeight: 700, marginRight: 6, fontFamily: "Times New Roman", }}>
+                  {idx + 1}.
+                </span>
+                <span style={{ color: "#000", pointerEvents: "none", fontFamily: "Times New Roman", }}>
+                  {it.title}
+                </span>
               </Col>
             </Row>
           </ListGroup.Item>

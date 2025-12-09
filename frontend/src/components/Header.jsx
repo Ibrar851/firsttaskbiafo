@@ -1,5 +1,13 @@
+// ========== Header.jsx ==========
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Form, FormControl, Button } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  Container,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -8,13 +16,37 @@ export default function Header({ setSearchQuery }) {
   const [searchInput, setSearchInput] = useState("");
 
   const topLinks = [
-    "EPAPER","LIVE TV","DAWNNEWS URDU","Images","Herald","Aurora","CityFM89",
-    "Advertise","Events","Supplements","Careers","Obituaries"
+    "EPAPER",
+    "LIVE TV",
+    "DAWNNEWS URDU",
+    "Images",
+    "Herald",
+    "Aurora",
+    "CityFM89",
+    "Advertise",
+    "Events",
+    "Supplements",
+    "Careers",
+    "Obituaries",
   ];
 
   const bottomLinks = [
-    "HOME","LATEST","PAKISTAN","OPINION","BUSINESS",
-    "IMAGES","PRISM","WORLD","SPORT","BREATHE","MAGAZINES","TECH","VIDEOS","POPULAR","ARCHIVE","FLOOD DONATIONS" 
+    "HOME",
+    "LATEST",
+    "PAKISTAN",
+    "OPINION",
+    "BUSINESS",
+    "IMAGES",
+    "PRISM",
+    "WORLD",
+    "SPORT",
+    "BREATHE",
+    "MAGAZINES",
+    "TECH",
+    "VIDEOS",
+    "POPULAR",
+    "ARCHIVE",
+    "FLOOD DONATIONS",
   ];
 
   const handleSearch = (e) => {
@@ -27,6 +59,7 @@ export default function Header({ setSearchQuery }) {
 
   const getRoute = (link) => {
     const map = {
+      // Bottom Links
       HOME: "/",
       LATEST: "/latest",
       PAKISTAN: "/pakistan",
@@ -42,16 +75,43 @@ export default function Header({ setSearchQuery }) {
       VIDEOS: "/videos",
       POPULAR: "/popular",
       ARCHIVE: "/archive",
-      FLOODDONATIONS: "/floodonations"
+      "FLOOD DONATIONS": "/flood-donations",
+
+      // Top Links
+      EPAPER: "/epaper",
+      "LIVE TV": "/live-tv",
+      "DAWNNEWS URDU": "/dawnnews-urdu",
+      Images: "/images",
+      Herald: "/herald",
+      Aurora: "/aurora",
+      CityFM89: "/cityfm89",
+      Advertise: "/advertise",
+      Events: "/events",
+      Supplements: "/supplements",
+      Careers: "/careers",
+      Obituaries: "/obituaries",
     };
+
     return map[link] || "/";
   };
 
   return (
     <>
       {/* Top Black Bar */}
-      <div style={{ background: "#000", color: "#8a9cafff", fontSize: "10px", padding: "6px 0" }}>
-        <Container className="d-flex justify-content-center flex-wrap" style={{ gap: "30px" }}>
+      <div
+        style={{
+          background: "#000",
+          color: "#8a9cafff",
+          fontSize: "10px",
+          padding: "6px 0",
+          
+
+        }}
+      >
+        <Container
+          className="d-flex justify-content-center flex-wrap"
+          style={{ gap: "30px" }}
+        >
           {topLinks.map((link) => (
             <span
               key={link}
@@ -64,17 +124,26 @@ export default function Header({ setSearchQuery }) {
         </Container>
       </div>
 
-      {/* DAWN Logo */}
+      {/* Dawn Logo */}
       <div className="text-center py-3 border-bottom">
-        <h1 style={{ fontFamily: "Times New Roman", fontSize: "48px", margin: 0, fontWeight: 700 }}>
+        <h1
+          style={{
+            fontFamily: "Times New Roman",
+            fontSize: "48px",
+            margin: 0,
+            fontWeight: 700,
+           
+          }}
+        >
           DAWN
         </h1>
         <div style={{ fontSize: "10px", color: "#8ba3b0ff" }}>
-          <span style={{ fontWeight: 700, color: "black" }}>E-PAPER</span> | NOVEMBER 21, 2025
+          <span style={{ fontWeight: 700, color: "black" }}>E-PAPER</span> |
+          NOVEMBER 21, 2025
         </div>
       </div>
 
-      {/* Bottom Navigation */}
+      {/* Bottom Menu */}
       <Navbar
         bg="white"
         className="border-bottom"
@@ -88,8 +157,7 @@ export default function Header({ setSearchQuery }) {
         }}
       >
         <Container className="d-flex justify-content-between align-items-center">
-
-          {/* Left Menu */}
+          {/* Left */}
           <Nav className="d-flex" style={{ gap: "10px" }}>
             {bottomLinks.map((link) => (
               <Nav.Link
@@ -106,17 +174,8 @@ export default function Header({ setSearchQuery }) {
             ))}
           </Nav>
 
-          {/* Right Menu + Search */}
-          <Nav className="d-flex align-items-center" style={{ gap: "10px" }}>
-            {[].map((item) => (
-              <Nav.Link
-                key={item}
-                style={{ color: "#000", fontWeight: 400, padding: "0 2px" }}
-              >
-                {item}
-              </Nav.Link>
-            ))}
-
+          {/* Right Search */}
+          <Nav>
             <Form className="d-flex" onSubmit={handleSearch}>
               <FormControl
                 type="text"
@@ -131,7 +190,6 @@ export default function Header({ setSearchQuery }) {
               </Button>
             </Form>
           </Nav>
-
         </Container>
       </Navbar>
     </>

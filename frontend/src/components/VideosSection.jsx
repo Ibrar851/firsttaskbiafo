@@ -3,7 +3,7 @@ import { Card, Row, Col } from "react-bootstrap";
 
 export default function VideosSection({ items }) {
   return (
-    <section className="mb-4">
+    <section className="mb-4" style={{fontFamily: "Times New Roman" }}>
       <h5 className="mb-3" style={{ fontWeight: 700, fontSize: 18 }}>Videos</h5>
       <Row>
         {items.map((v) => (

@@ -1,21 +1,25 @@
+// ========== App.jsx ==========
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
 import HomePage from "./components/HomePage";
 import LatestPage from "./components/LatestPage";
-import PakistanPage from "./components/PakistanPage"
-import OpinionPage from "./components/OpinionPage"
-import BusinessPage from "./components/BusinessPage"
-import WorldPage from "./components/WorldPage"
-import SportsPage from "./components/SportsPage"
-import TechPage from "./components/TechPage"
-import MagazinesPage from "./components/MagazinesPage"
-import PopularPage from "./components/PopularPage"
+import PakistanPage from "./components/PakistanPage";
+import OpinionPage from "./components/OpinionPage";
+import BusinessPage from "./components/BusinessPage";
+import WorldPage from "./components/WorldPage";
+import SportsPage from "./components/SportsPage";
+import BreathePage from "./components/BreathePage";
+import TechPage from "./components/TechPage";
+import MagazinesPage from "./components/MagazinesPage";
+import PopularPage from "./components/PopularPage";
 import ArchivePage from "./components/ArchivePage";
 import PrismPage from "./components/PrismPage";
+import VideosPage from "./components/VideosPage";
 
-// Simple placeholder page
+// Simple placeholder
 function Page({ title }) {
   return (
     <div style={{ padding: 20 }}>
@@ -25,37 +29,44 @@ function Page({ title }) {
   );
 }
 
-export default function App() {
+// Wrapper to handle conditional header
+function AppWrapper() {
+  const location = useLocation();
   const [searchQuery, setSearchQuery] = useState("");
 
+  // Paths jahan header hide karna hai
+  const hideHeaderPaths = ["/prism", "/breathe"];
+  const showHeader = !hideHeaderPaths.includes(location.pathname);
+
   return (
-    <BrowserRouter>
-      <Header setSearchQuery={setSearchQuery} />
+    <>
+      {showHeader && <Header setSearchQuery={setSearchQuery} />}
 
       <Routes>
-        {/* Home page */}
+        {/* Home */}
         <Route path="/" element={<HomePage />} />
 
-        {/* Bottom links */}
-        <Route path="/latest" element={<LatestPage title="Latest" />} />
-        <Route path="/pakistan" element={<PakistanPage title="Pakistan" />} />
-        <Route path="/opinion" element={<OpinionPage title="Opinion" />} />
-        <Route path="/business" element={<BusinessPage title="Business" />} />
+        {/* Bottom Links */}
+        <Route path="/latest" element={<LatestPage />} />
+        <Route path="/pakistan" element={<PakistanPage />} />
+        <Route path="/opinion" element={<OpinionPage />} />
+        <Route path="/business" element={<BusinessPage />} />
         <Route path="/images" element={<Page title="Images" />} />
-        <Route path="/prism" element={<PrismPage title="Prism" />} />
-        <Route path="/world" element={<WorldPage title="World" />} />
-        <Route path="/sport" element={<SportsPage title="Sports" />} />
-        <Route path="/magazines" element={<MagazinesPage title="Magazines" />} />
-        <Route path="/tech" element={<TechPage title="Tech" />} />
-        <Route path="/videos" element={<Page title="Videos" />} />
-        <Route path="/popular" element={<PopularPage title="Popular" />} />
-        <Route path="/archive" element={<ArchivePage title="Archive" />} />
+        <Route path="/prism" element={<PrismPage />} />
+        <Route path="/world" element={<WorldPage />} />
+        <Route path="/sport" element={<SportsPage />} />
+        <Route path="/breathe" element={<BreathePage />} />
+        <Route path="/magazines" element={<MagazinesPage />} />
+        <Route path="/tech" element={<TechPage />} />
+        <Route path="/videos" element={<VideosPage title="Videos" />} />
+        <Route path="/popular" element={<PopularPage />} />
+        <Route path="/archive" element={<ArchivePage />} />
+        <Route path="/flood-donations" element={<Page title="Flood Donations" />} />
 
-
-        {/* Top links */}
-        <Route path="/epaper" element={<Page title="E-PAPER" />} />
-        <Route path="/live-tv" element={<Page title="LIVE TV" />} />
-        <Route path="/dawnnews-urdu" element={<Page title="DAWNNEWS URDU" />} />
+        {/* Top Links */}
+        <Route path="/epaper" element={<Page title="E-Paper" />} />
+        <Route path="/live-tv" element={<Page title="Live TV" />} />
+        <Route path="/dawnnews-urdu" element={<Page title="DawnNews Urdu" />} />
         <Route path="/herald" element={<Page title="Herald" />} />
         <Route path="/aurora" element={<Page title="Aurora" />} />
         <Route path="/cityfm89" element={<Page title="CityFM89" />} />
@@ -70,6 +81,14 @@ export default function App() {
       </Routes>
 
       <Footer />
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppWrapper />
     </BrowserRouter>
   );
 }

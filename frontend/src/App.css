@@ -1,3 +1,9 @@
+/* Apply global font to the entire app */
+body {
+  font-family: "Georgia", serif !important;
+}
+
+/* Existing styles below */
 #root {
   max-width: 1280px;
   margin: 0 auto;

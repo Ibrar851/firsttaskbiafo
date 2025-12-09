@@ -3,7 +3,7 @@ import { Row, Col, Card } from "react-bootstrap";
 
 export default function SectionGrid({ title, items }) {
   return (
-    <section className="mb-4">
+    <section className="mb-4" style={{fontFamily: "Times New Roman" }}>
       <h5 className="mb-3" style={{ fontWeight: 700, fontSize: 18 }}>{title}</h5>
       <Row>
         {items.map((it) => (
