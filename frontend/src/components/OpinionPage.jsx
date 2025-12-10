@@ -7,20 +7,20 @@ import "slick-carousel/slick/slick-theme.css";
 import "react-calendar/dist/Calendar.css";
 
 // ---------- Images ----------
-import Opinion1 from "../assets/opinion/opinion1.png";
-import OpinionAC from "../assets/opinion/opinionac.png";
-import OpinionCard1 from "../assets/opinion/opinioncard1.png";
-import OpinionCard2 from "../assets/opinion/opinioncard2.png";
-import OpinionCard3 from "../assets/opinion/opinioncard3.png";
-import OpinionSlide1 from "../assets/opinion/opinionslide1.png";
-import OpinionSlide2 from "../assets/opinion/opinionslide2.png";
-import OpinionSlide3 from "../assets/opinion/opinionslide3.png";
-import OpinionAnalysis1 from "../assets/opinion/opinionanalysis1.png";
-import OpinionAnalysis2 from "../assets/opinion/opinionanalysis2.png";
-import OpinionAnalysis3 from "../assets/opinion/opinionanalysis3.png";
-import Cartoon1 from "../assets/opinion/cartoon1.png";
-import Cartoon2 from "../assets/opinion/cartoon2.png";
-import Cartoon3 from "../assets/opinion/cartoon3.png";
+import Opinion1 from "../assets/Opinion/opinion1.png";
+import Opinionac from "../assets/Opinion/opinionac.png";
+import OpinionCard1 from "../assets/Opinion/opinioncard1.png";
+import OpinionCard2 from "../assets/Opinion/opinioncard2.png";
+import OpinionCard3 from "../assets/Opinion/opinioncard3.png";
+import OpinionSlide1 from "../assets/Opinion/opinionslide1.png";
+import OpinionSlide2 from "../assets/Opinion/opinionslide2.png";
+import OpinionSlide3 from "../assets/Opinion/opinionslide3.png";
+import OpinionAnalysis1 from "../assets/Opinion/opinionanalysis1.png";
+import OpinionAnalysis2 from "../assets/Opinion/opinionanalysis2.png";
+import OpinionAnalysis3 from "../assets/Opinion/opinionanalysis3.png";
+import Cartoon1 from "../assets/Opinion/cartoon1.png";
+import Cartoon2 from "../assets/Opinion/cartoon2.png";
+import Cartoon3 from "../assets/Opinion/cartoon3.png";
 
 // ---------- Reusable Data ----------
 const cardsSection2 = [
@@ -312,7 +312,7 @@ export default function OpinionPageStructure() {
           </Col>
           <Col md={6}>
             <img
-              src={OpinionAC}
+              src={Opinionac}
               alt=""
               className="img-fluid rounded"
               style={{ width: "100%", height: "400px", objectFit: "cover" }}

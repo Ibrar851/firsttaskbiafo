@@ -9,12 +9,12 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-import Logo from "../assets/breathe/logo.png";
-import Hed1 from "../assets/breathe/hed1.webp";
-import Hed2 from "../assets/breathe/hed2.webp";
-import Hed3 from "../assets/breathe/hed3.webp";
-import Hed4 from "../assets/breathe/hed4.webp";
-import Dawn from "../assets/breathe/dawn.png";
+import Logo from "../assets/Breathe/logo.png";
+import Hed1 from "../assets/Breathe/hed1.webp";
+import Hed2 from "../assets/Breathe/hed2.webp";
+import Hed3 from "../assets/Breathe/hed3.webp";
+import Hed4 from "../assets/Breathe/hed4.webp";
+import Dawn from "../assets/Breathe/dawn.png";
 
 // ======= Countdown Component =======
 function Countdown({ targetDate }) {

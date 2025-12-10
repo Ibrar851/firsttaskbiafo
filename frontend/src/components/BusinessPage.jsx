@@ -36,36 +36,36 @@ const DawnStyleHeadline = ({ title, img, description, time }) => (
 // ===============================
 // Dummy Image Imports
 // ===============================
-import HeadlineImg from "../assets/business/headline.webp";
-import Slide1 from "../assets/business/slide1.jpg";
-import Slide2 from "../assets/business/slide2.jpg";
-import Slide3 from "../assets/business/slide3.jpg";
-import Slide4 from "../assets/business/slide4.jpg";
-import Slide5 from "../assets/business/slide5.jpg";
-import Slide6 from "../assets/business/slide6.jpg";
-import LogoImg from "../assets/business/logo.jpg";
-import HighlightImg1 from "../assets/business/highlight1.jpg";
-import HighlightImg2 from "../assets/business/highlight2.jpg";
-import HighlightImg3 from "../assets/business/highlight3.jpg";
-import HighlightImg4 from "../assets/business/highlight4.jpg";
-import HighlightImg5 from "../assets/business/highlight5.jpg";
-import HighlightImg6 from "../assets/business/highlight6.jpg";
+import HeadlineImg from "../assets/Business/headline.webp";
+import Slide1 from "../assets/Business/slide1.jpg";
+import Slide2 from "../assets/Business/slide2.jpg";
+import Slide3 from "../assets/Business/slide3.jpg";
+import Slide4 from "../assets/Business/slide4.jpg";
+import Slide5 from "../assets/Business/slide5.jpg";
+import Slide6 from "../assets/Business/slide6.jpg";
+import LogoImg from "../assets/Business/logo.jpg";
+import HighlightImg1 from "../assets/Business/highlight1.jpg";
+import HighlightImg2 from "../assets/Business/highlight2.jpg";
+import HighlightImg3 from "../assets/Business/highlight3.jpg";
+import HighlightImg4 from "../assets/Business/highlight4.jpg";
+import HighlightImg5 from "../assets/Business/highlight5.jpg";
+import HighlightImg6 from "../assets/Business/highlight6.jpg";
 
 // Column 1 headlines
-import column1Headlines1 from "../assets/business/headline1.webp";
-import column1Headlines2 from "../assets/business/headline2.webp";
-import column1Headlines3 from "../assets/business/headline3.webp";
-import column1Headlines4 from "../assets/business/headline4.webp";
-import column1Headlines5 from "../assets/business/headline5.webp";
-import column1Headlines6 from "../assets/business/headline6.webp";
-import column1Headlines7 from "../assets/business/headline7.webp";
-import column1Headlines8 from "../assets/business/headline8.webp";
-import column1Headlines9 from "../assets/business/headline9.webp";
+import column1Headlines1 from "../assets/Business/headline1.webp";
+import column1Headlines2 from "../assets/Business/headline2.webp";
+import column1Headlines3 from "../assets/Business/headline3.webp";
+import column1Headlines4 from "../assets/Business/headline4.webp";
+import column1Headlines5 from "../assets/Business/headline5.webp";
+import column1Headlines6 from "../assets/Business/headline6.webp";
+import column1Headlines7 from "../assets/Business/headline7.webp";
+import column1Headlines8 from "../assets/Business/headline8.webp";
+import column1Headlines9 from "../assets/Business/headline9.webp";
 
 // Column 2 headlines
-import column2Headlines10 from "../assets/business/headline10.webp";
-import column2Headlines11 from "../assets/business/headline11.webp";
-import column2Headlines12 from "../assets/business/headline12.webp";
+import column2Headlines10 from "../assets/Business/headline10.webp";
+import column2Headlines11 from "../assets/Business/headline11.webp";
+import column2Headlines12 from "../assets/Business/headline12.webp";
 
 // ===============================
 // Main Business Page

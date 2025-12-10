@@ -33,66 +33,66 @@ const DawnStyleHeadline = ({ title, img, description, time }) => (
 // ===============================
 // Images
 // ===============================
-import HeadlineImg from "../assets/world/headline.webp";
-import Slide1 from "../assets/world/slide1.webp";
-import Slide2 from "../assets/world/slide2.webp";
-import Slide3 from "../assets/world/slide3.webp";
-import Slide4 from "../assets/world/slide4.webp";
-import Slide5 from "../assets/world/slide5.webp";
-import Slide6 from "../assets/world/slide6.webp";
+import HeadlineImg from "../assets/World/headline.webp";
+import Slide1 from "../assets/World/slide1.webp";
+import Slide2 from "../assets/World/slide2.webp";
+import Slide3 from "../assets/World/slide3.webp";
+import Slide4 from "../assets/World/slide4.webp";
+import Slide5 from "../assets/World/slide5.webp";
+import Slide6 from "../assets/World/slide6.webp";
 
-import HighlightImg1 from "../assets/world/highlight1.webp";
-import HighlightImg2 from "../assets/world/highlight2.webp";
-import HighlightImg3 from "../assets/world/highlight3.webp";
-import HighlightImg4 from "../assets/world/highlight4.webp";
-import HighlightImg5 from "../assets/world/highlight5.webp";
-import HighlightImg6 from "../assets/world/highlight6.webp";
+import HighlightImg1 from "../assets/World/highlight1.webp";
+import HighlightImg2 from "../assets/World/highlight2.webp";
+import HighlightImg3 from "../assets/World/highlight3.webp";
+import HighlightImg4 from "../assets/World/highlight4.webp";
+import HighlightImg5 from "../assets/World/highlight5.webp";
+import HighlightImg6 from "../assets/World/highlight6.webp";
 
-import SAImg1 from "../assets/world/southasia1.webp";
-import SAImg2 from "../assets/world/southasia2.webp";
-import SAImg3 from "../assets/world/southasia3.webp";
-import SAImg4 from "../assets/world/southasia4.webp";
-import SAImg5 from "../assets/world/southasia5.webp";
-import SAImg6 from "../assets/world/southasia6.webp";
+import SAImg1 from "../assets/World/southasia1.webp";
+import SAImg2 from "../assets/World/southasia2.webp";
+import SAImg3 from "../assets/World/southasia3.webp";
+import SAImg4 from "../assets/World/southasia4.webp";
+import SAImg5 from "../assets/World/southasia5.webp";
+import SAImg6 from "../assets/World/southasia6.webp";
 
-import ME1 from "../assets/world/middleeast1.webp";
-import ME2 from "../assets/world/middleeast2.webp";
-import ME3 from "../assets/world/middleeast3.webp";
-import ME4 from "../assets/world/middleeast4.webp";
+import ME1 from "../assets/World/middleeast1.webp";
+import ME2 from "../assets/World/middleeast2.webp";
+import ME3 from "../assets/World/middleeast3.webp";
+import ME4 from "../assets/World/middleeast4.webp";
 
-import col1_1 from "../assets/world/headline1.webp";
-import col1_2 from "../assets/world/headline2.webp";
-import col1_3 from "../assets/world/headline3.webp";
-import col1_4 from "../assets/world/headline4.webp";
-import col1_5 from "../assets/world/headline5.webp";
-import col1_6 from "../assets/world/headline6.webp";
-import col1_7 from "../assets/world/headline7.webp";
-import col1_8 from "../assets/world/headline8.webp";
-import col1_9 from "../assets/world/headline9.webp";
+import col1_1 from "../assets/World/headline1.webp";
+import col1_2 from "../assets/World/headline2.webp";
+import col1_3 from "../assets/World/headline3.webp";
+import col1_4 from "../assets/World/headline4.webp";
+import col1_5 from "../assets/World/headline5.webp";
+import col1_6 from "../assets/World/headline6.webp";
+import col1_7 from "../assets/World/headline7.webp";
+import col1_8 from "../assets/World/headline8.webp";
+import col1_9 from "../assets/World/headline9.webp";
 
 // Column 3 top stories (1–15)
-import ReadStory1 from "../assets/world/readstory1.webp";
-import ReadStory2 from "../assets/world/readstory2.webp";
-import ReadStory3 from "../assets/world/readstory3.webp";
-import ReadStory4 from "../assets/world/readstory4.webp";
-import ReadStory5 from "../assets/world/readstory5.webp";
-import ReadStory6 from "../assets/world/readstory6.webp";
-import ReadStory7 from "../assets/world/readstory7.webp";
-import ReadStory8 from "../assets/world/readstory8.webp";
-import ReadStory9 from "../assets/world/readstory9.webp";
-import ReadStory10 from "../assets/world/readstory10.webp";
-import ReadStory11 from "../assets/world/readstory11.webp";
-import ReadStory12 from "../assets/world/readstory12.webp";
-import ReadStory13 from "../assets/world/readstory13.webp";
-import ReadStory14 from "../assets/world/readstory14.webp";
-import ReadStory15 from "../assets/world/readstory15.webp";
+import ReadStory1 from "../assets/World/readstory1.webp";
+import ReadStory2 from "../assets/World/readstory2.webp";
+import ReadStory3 from "../assets/World/readstory3.webp";
+import ReadStory4 from "../assets/World/readstory4.webp";
+import ReadStory5 from "../assets/World/readstory5.webp";
+import ReadStory6 from "../assets/World/readstory6.webp";
+import ReadStory7 from "../assets/World/readstory7.webp";
+import ReadStory8 from "../assets/World/readstory8.webp";
+import ReadStory9 from "../assets/World/readstory9.webp";
+import ReadStory10 from "../assets/World/readstory10.webp";
+import ReadStory11 from "../assets/World/readstory11.webp";
+import ReadStory12 from "../assets/World/readstory12.webp";
+import ReadStory13 from "../assets/World/readstory13.webp";
+import ReadStory14 from "../assets/World/readstory14.webp";
+import ReadStory15 from "../assets/World/readstory15.webp";
 
 // Column 3 slider images
-import Cl3Slide1 from "../assets/world/cl3slide1.webp";
-import Cl3Slide2 from "../assets/world/cl3slide2.webp";
-import Cl3Slide3 from "../assets/world/cl3slide3.webp";
-import Cl3Slide4 from "../assets/world/cl3slide4.webp";
-import Cl3Slide5 from "../assets/world/cl3slide5.webp";
+import Cl3Slide1 from "../assets/World/cl3slide1.webp";
+import Cl3Slide2 from "../assets/World/cl3slide2.webp";
+import Cl3Slide3 from "../assets/World/cl3slide3.webp";
+import Cl3Slide4 from "../assets/World/cl3slide4.webp";
+import Cl3Slide5 from "../assets/World/cl3slide5.webp";
 
 // ===============================
 // World Page Component

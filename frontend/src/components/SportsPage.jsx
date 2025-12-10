@@ -7,33 +7,33 @@ import "react-calendar/dist/Calendar.css";
 // ================================
 // Import Images
 // ================================
-import HeroImage from "../assets/sports/hero-image.webp";
+import HeroImage from "../assets/Sports/hero-image.webp";
 
-import Img2_1 from "../assets/sports/img2_1.webp";
-import Img2_2 from "../assets/sports/img2_2.webp";
-import Img2_3 from "../assets/sports/img2_3.webp";
-import Img2_4 from "../assets/sports/img2_4.webp";
-import Img2_5 from "../assets/sports/img2_5.webp";
-import Img2_6 from "../assets/sports/img2_6.webp";
-import Img2_7 from "../assets/sports/img2_7.webp";
+import Img2_1 from "../assets/Sports/img2_1.webp";
+import Img2_2 from "../assets/Sports/img2_2.webp";
+import Img2_3 from "../assets/Sports/img2_3.webp";
+import Img2_4 from "../assets/Sports/img2_4.webp";
+import Img2_5 from "../assets/Sports/img2_5.webp";
+import Img2_6 from "../assets/Sports/img2_6.webp";
+import Img2_7 from "../assets/Sports/img2_7.webp";
 
-import Slide1 from "../assets/sports/slide1.webp";
-import Slide2 from "../assets/sports/slide2.webp";
-import Slide3 from "../assets/sports/slide3.webp";
+import Slide1 from "../assets/Sports/slide1.webp";
+import Slide2 from "../assets/Sports/slide2.webp";
+import Slide3 from "../assets/Sports/slide3.webp";
 
 // ===== Container 3 Images (12 images) =====
-import Mp1 from "../assets/sports/mp1.webp";
-import Mp2 from "../assets/sports/mp2.webp";
-import Mp3 from "../assets/sports/mp3.webp";
-import Mp4 from "../assets/sports/mp4.webp";
-import Mp5 from "../assets/sports/mp5.webp";
-import Mp6 from "../assets/sports/mp6.webp";
-import Mp7 from "../assets/sports/mp7.webp";
-import Mp8 from "../assets/sports/mp8.webp";
-import Mp9 from "../assets/sports/mp9.webp";
-import Mp10 from "../assets/sports/mp10.webp";
-import Mp11 from "../assets/sports/mp11.webp";
-import Mp12 from "../assets/sports/mp12.webp";
+import Mp1 from "../assets/Sports/mp1.webp";
+import Mp2 from "../assets/Sports/mp2.webp";
+import Mp3 from "../assets/Sports/mp3.webp";
+import Mp4 from "../assets/Sports/mp4.webp";
+import Mp5 from "../assets/Sports/mp5.webp";
+import Mp6 from "../assets/Sports/mp6.webp";
+import Mp7 from "../assets/Sports/mp7.webp";
+import Mp8 from "../assets/Sports/mp8.webp";
+import Mp9 from "../assets/Sports/mp9.webp";
+import Mp10 from "../assets/Sports/mp10.webp";
+import Mp11 from "../assets/Sports/mp11.webp";
+import Mp12 from "../assets/Sports/mp12.webp";
 
 export default function SportsPage() {
   const [date, setDate] = useState(new Date());

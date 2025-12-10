@@ -7,28 +7,28 @@ import VideosSection from "./VideosSection";
 import HeadlineBlock from "./HeadlineBlock";
 
 // ----- IMPORT ALL 12 NEWS HEADLINES -----
-import h1 from "../assets/newsheadline/headline1.webp";
-import h2 from "../assets/newsheadline/headline2.webp";
-import h3 from "../assets/newsheadline/headline3.webp";
-import h4 from "../assets/newsheadline/headline4.webp";
-import h5 from "../assets/newsheadline/headline5.webp";
-import h6 from "../assets/newsheadline/headline6.webp";
-import h7 from "../assets/newsheadline/headline7.webp";
-import h8 from "../assets/newsheadline/headline8.webp";
-import h9 from "../assets/newsheadline/headline9.webp";
-import h10 from "../assets/newsheadline/headline10.webp";
-import h11 from "../assets/newsheadline/headline11.webp";
-import h12 from "../assets/newsheadline/headline12.webp";
+import h1 from "../assets/Newsheadline/headline1.webp";
+import h2 from "../assets/Newsheadline/headline2.webp";
+import h3 from "../assets/Newsheadline/headline3.webp";
+import h4 from "../assets/Newsheadline/headline4.webp";
+import h5 from "../assets/Newsheadline/headline5.webp";
+import h6 from "../assets/Newsheadline/headline6.webp";
+import h7 from "../assets/Newsheadline/headline7.webp";
+import h8 from "../assets/Newsheadline/headline8.webp";
+import h9 from "../assets/Newsheadline/headline9.webp";
+import h10 from "../assets/Newsheadline/headline10.webp";
+import h11 from "../assets/Newsheadline/headline11.webp";
+import h12 from "../assets/Newsheadline/headline12.webp";
 
 // ----- IMPORT MOST READ IMAGES -----
-import r1 from "../assets/mostread/readstory1.webp";
-import r2 from "../assets/mostread/readstory2.webp";
-import r3 from "../assets/mostread/readstory3.webp";
-import r4 from "../assets/mostread/readstory4.webp";
-import r5 from "../assets/mostread/readstory5.webp";
-import r6 from "../assets/mostread/readstory6.webp";
-import r7 from "../assets/mostread/readstory7.webp";
-import r8 from "../assets/mostread/readstory8.webp";
+import r1 from "../assets/Mostread/readstory1.webp";
+import r2 from "../assets/Mostread/readstory2.webp";
+import r3 from "../assets/Mostread/readstory3.webp";
+import r4 from "../assets/Mostread/readstory4.webp";
+import r5 from "../assets/Mostread/readstory5.webp";
+import r6 from "../assets/Mostread/readstory6.webp";
+import r7 from "../assets/Mostread/readstory7.webp";
+import r8 from "../assets/Mostread/readstory8.webp";
 
 const SAMPLE = {
   articles: [

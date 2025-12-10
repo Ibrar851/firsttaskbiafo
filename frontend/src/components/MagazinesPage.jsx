@@ -6,75 +6,75 @@ import "react-calendar/dist/Calendar.css";
 
 // ===== Container 1 hero-image (1 images) =====
 import HeroImage from "../assets/Magazines/hero-image.webp";
-import Logo from "../assets/magazines/logo.png";
-import Dawn from "../assets/magazines/dawn.png";
+import Logo from "../assets/Magazines/logo.png";
+import Dawn from "../assets/Magazines/dawn.png";
 
 // ===== Container 2 Branded Content(10 images) =====
-import Img2_1 from "../assets/magazines/img2_1.webp";
-import Img2_2 from "../assets/magazines/img2_2.webp";
-import Img2_3 from "../assets/magazines/img2_3.webp";
-import Img2_4 from "../assets/magazines/img2_4.webp";
-import Img2_5 from "../assets/magazines/img2_5.webp";
-import Img2_6 from "../assets/magazines/img2_6.webp";
-import Img2_7 from "../assets/magazines/img2_7.webp";
-import Slide1 from "../assets/magazines/slide1.webp";
-import Slide2 from "../assets/magazines/slide2.webp";
-import Slide3 from "../assets/magazines/slide3.webp";
+import Img2_1 from "../assets/Magazines/img2_1.webp";
+import Img2_2 from "../assets/Magazines/img2_2.webp";
+import Img2_3 from "../assets/Magazines/img2_3.webp";
+import Img2_4 from "../assets/Magazines/img2_4.webp";
+import Img2_5 from "../assets/Magazines/img2_5.webp";
+import Img2_6 from "../assets/Magazines/img2_6.webp";
+import Img2_7 from "../assets/Magazines/img2_7.webp";
+import Slide1 from "../assets/Magazines/slide1.webp";
+import Slide2 from "../assets/Magazines/slide2.webp";
+import Slide3 from "../assets/Magazines/slide3.webp";
 
 // ===== Container 4 Images (12 images) =====
-import Icon from "../assets/magazines/icon.png";
-import Mp1 from "../assets/magazines/mp1.webp";
-import Mp2 from "../assets/magazines/mp2.webp";
-import Mp3 from "../assets/magazines/mp3.webp";
-import Mp4 from "../assets/magazines/mp4.webp";
-import Mp5 from "../assets/magazines/mp5.webp";
-import Mp6 from "../assets/magazines/mp6.webp";
-import Mp7 from "../assets/magazines/mp7.webp";
-import Mp8 from "../assets/magazines/mp8.webp";
-import Mp9 from "../assets/magazines/mp9.webp";
-import Mp10 from "../assets/magazines/mp10.webp";
-import Mp11 from "../assets/magazines/mp11.webp";
-import Mp12 from "../assets/magazines/mp12.webp";
+import Icon from "../assets/Magazines/icon.png";
+import Mp1 from "../assets/Magazines/mp1.webp";
+import Mp2 from "../assets/Magazines/mp2.webp";
+import Mp3 from "../assets/Magazines/mp3.webp";
+import Mp4 from "../assets/Magazines/mp4.webp";
+import Mp5 from "../assets/Magazines/mp5.webp";
+import Mp6 from "../assets/Magazines/mp6.webp";
+import Mp7 from "../assets/Magazines/mp7.webp";
+import Mp8 from "../assets/Magazines/mp8.webp";
+import Mp9 from "../assets/Magazines/mp9.webp";
+import Mp10 from "../assets/Magazines/mp10.webp";
+import Mp11 from "../assets/Magazines/mp11.webp";
+import Mp12 from "../assets/Magazines/mp12.webp";
 // ===== Container 3 a & b(8 images) =====
-import Ab from "../assets/magazines/ab.png";
-import Ab1 from "../assets/magazines/ab1.webp";
-import Ab2 from "../assets/magazines/ab2.webp";
-import Ab3 from "../assets/magazines/ab3.webp";
-import Ab4 from "../assets/magazines/ab4.webp";
-import Ab5 from "../assets/magazines/ab5.webp";
-import Ab6 from "../assets/magazines/ab6.webp";
-import Ab7 from "../assets/magazines/ab7.webp";
-import Ab8 from "../assets/magazines/ab8.webp";
+import Ab from "../assets/Magazines/ab.png";
+import Ab1 from "../assets/Magazines/ab1.webp";
+import Ab2 from "../assets/Magazines/ab2.webp";
+import Ab3 from "../assets/Magazines/ab3.webp";
+import Ab4 from "../assets/Magazines/ab4.webp";
+import Ab5 from "../assets/Magazines/ab5.webp";
+import Ab6 from "../assets/Magazines/ab6.webp";
+import Ab7 from "../assets/Magazines/ab7.webp";
+import Ab8 from "../assets/Magazines/ab8.webp";
 
 // ===== CONTAINER 5: More From Eos (8 img)=====
-import Eos1 from "../assets/magazines/eos1.webp";
-import Eos2 from "../assets/magazines/eos2.webp";
-import Eos3 from "../assets/magazines/eos3.webp";
-import Eos4 from "../assets/magazines/eos4.webp";
-import Eos5 from "../assets/magazines/eos5.webp";
-import Eos6 from "../assets/magazines/eos6.webp";
-import Eos7 from "../assets/magazines/eos7.webp";
-import Eos8 from "../assets/magazines/eos8.webp";
+import Eos1 from "../assets/Magazines/eos1.webp";
+import Eos2 from "../assets/Magazines/eos2.webp";
+import Eos3 from "../assets/Magazines/eos3.webp";
+import Eos4 from "../assets/Magazines/eos4.webp";
+import Eos5 from "../assets/Magazines/eos5.webp";
+import Eos6 from "../assets/Magazines/eos6.webp";
+import Eos7 from "../assets/Magazines/eos7.webp";
+import Eos8 from "../assets/Magazines/eos8.webp";
 
 // ===== CONTAINER 6: More From Icon (8 img)=====
-import Icon1 from "../assets/magazines/icon1.webp";
-import Icon2 from "../assets/magazines/icon2.webp";
-import Icon3 from "../assets/magazines/icon3.webp";
-import Icon4 from "../assets/magazines/icon4.webp";
-import Icon5 from "../assets/magazines/icon5.webp";
-import Icon6 from "../assets/magazines/icon6.webp";
-import Icon7 from "../assets/magazines/icon7.webp";
-import Icon8 from "../assets/magazines/icon8.webp";
+import Icon1 from "../assets/Magazines/icon1.webp";
+import Icon2 from "../assets/Magazines/icon2.webp";
+import Icon3 from "../assets/Magazines/icon3.webp";
+import Icon4 from "../assets/Magazines/icon4.webp";
+import Icon5 from "../assets/Magazines/icon5.webp";
+import Icon6 from "../assets/Magazines/icon6.webp";
+import Icon7 from "../assets/Magazines/icon7.webp";
+import Icon8 from "../assets/Magazines/icon8.webp";
 
 //=== CONTAINER 7: More From Business & Finance (8 img)==
-import Fin1 from "../assets/magazines/fin1.webp";
-import Fin2 from "../assets/magazines/fin2.webp";
-import Fin3 from "../assets/magazines/fin3.webp";
-import Fin4 from "../assets/magazines/fin4.webp";
-import Fin5 from "../assets/magazines/fin5.webp";
-import Fin6 from "../assets/magazines/fin6.webp";
-import Fin7 from "../assets/magazines/fin7.webp";
-import Fin8 from "../assets/magazines/fin8.webp";
+import Fin1 from "../assets/Magazines/fin1.webp";
+import Fin2 from "../assets/Magazines/fin2.webp";
+import Fin3 from "../assets/Magazines/fin3.webp";
+import Fin4 from "../assets/Magazines/fin4.webp";
+import Fin5 from "../assets/Magazines/fin5.webp";
+import Fin6 from "../assets/Magazines/fin6.webp";
+import Fin7 from "../assets/Magazines/fin7.webp";
+import Fin8 from "../assets/Magazines/fin8.webp";
 
 export default function MagazinesPage() {
   const [date, setDate] = useState(new Date());

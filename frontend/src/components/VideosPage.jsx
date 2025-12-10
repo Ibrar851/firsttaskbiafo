@@ -3,13 +3,13 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FaPlay } from "react-icons/fa";
 
-import img1 from "../assets/video/img1.png";
-import img2 from "../assets/video/img2.png";
-import img3 from "../assets/video/img3.png";
-import img4 from "../assets/video/img4.png";
-import img5 from "../assets/video/img5.png";
-import img6 from "../assets/video/img6.png";
-import img7 from "../assets/video/img7.png";
+import img1 from "../assets/Video/img1.png";
+import img2 from "../assets/Video/img2.png";
+import img3 from "../assets/Video/img3.png";
+import img4 from "../assets/Video/img4.png";
+import img5 from "../assets/Video/img5.png";
+import img6 from "../assets/Video/img6.png";
+import img7 from "../assets/Video/img7.png";
 
 export default function VideoPage() {
   // Each video now has a unique title

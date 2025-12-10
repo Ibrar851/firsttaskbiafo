@@ -14,24 +14,24 @@ import {
 import Logo from "../assets/Archive/logo.jpg";
 
 // ------- IMPORT NEWS IMAGES -------
-import Hed1 from "../assets/archive/hed1.webp";
-import Hed2 from "../assets/archive/hed2.webp";
-import Hed3 from "../assets/archive/hed3.webp";
-import Hed4 from "../assets/archive/hed4.webp";
-import Hed5 from "../assets/archive/hed5.webp";
-import Hed6 from "../assets/archive/hed6.webp";
-import Hed7 from "../assets/archive/hed7.webp";
-import Hed8 from "../assets/archive/hed8.webp";
-import Hed9 from "../assets/archive/hed9.webp";
+import Hed1 from "../assets/Archive/hed1.webp";
+import Hed2 from "../assets/Archive/hed2.webp";
+import Hed3 from "../assets/Archive/hed3.webp";
+import Hed4 from "../assets/Archive/hed4.webp";
+import Hed5 from "../assets/Archive/hed5.webp";
+import Hed6 from "../assets/Archive/hed6.webp";
+import Hed7 from "../assets/Archive/hed7.webp";
+import Hed8 from "../assets/Archive/hed8.webp";
+import Hed9 from "../assets/Archive/hed9.webp";
 import Hed10 from "../assets/Archive/hed10.webp";
-import Hed11 from "../assets/archive/hed11.webp";
-import Hed12 from "../assets/archive/hed12.webp";
-import Hed13 from "../assets/archive/hed13.webp";
-import Hed14 from "../assets/archive/hed14.webp";
-import Hed15 from "../assets/archive/hed15.webp";
-import Hed16 from "../assets/archive/hed16.webp";
-import Hed17 from "../assets/archive/hed17.webp";
-import Hed18 from "../assets/archive/hed18.webp";
+import Hed11 from "../assets/Archive/hed11.webp";
+import Hed12 from "../assets/Archive/hed12.webp";
+import Hed13 from "../assets/Archive/hed13.webp";
+import Hed14 from "../assets/Archive/hed14.webp";
+import Hed15 from "../assets/Archive/hed15.webp";
+import Hed16 from "../assets/Archive/hed16.webp";
+import Hed17 from "../assets/Archive/hed17.webp";
+import Hed18 from "../assets/Archive/hed18.webp";
 
 export default function ArchivePage() {
   const [value, setValue] = React.useState(new Date());

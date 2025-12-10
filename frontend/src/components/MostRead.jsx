@@ -3,24 +3,24 @@ import React from "react";
 import { ListGroup, Row, Col, Image } from "react-bootstrap";
 
 // ----- IMPORT MOST READ IMAGES -----
-import r1 from "../assets/mostread/readstory1.webp";
-import r2 from "../assets/mostread/readstory2.webp";
-import r3 from "../assets/mostread/readstory3.webp";
-import r4 from "../assets/mostread/readstory4.webp";
-import r5 from "../assets/mostread/readstory5.webp";
-import r6 from "../assets/mostread/readstory6.webp";
-import r7 from "../assets/mostread/readstory7.webp";
-import r8 from "../assets/mostread/readstory8.webp";
-import r9 from "../assets/mostread/readstory9.webp";
-import r10 from "../assets/mostread/readstory10.webp";
-import r11 from "../assets/mostread/readstory11.webp";
-import r12 from "../assets/mostread/readstory12.webp";
-import r13 from "../assets/mostread/readstory13.webp";
-import r14 from "../assets/mostread/readstory14.webp";
-import r15 from "../assets/mostread/readstory15.webp";
-import r16 from "../assets/mostread/readstory16.webp";
-import r17 from "../assets/mostread/readstory17.webp";
-import r18 from "../assets/mostread/readstory18.webp";
+import r1 from "../assets/Mostread/readstory1.webp";
+import r2 from "../assets/Mostread/readstory2.webp";
+import r3 from "../assets/Mostread/readstory3.webp";
+import r4 from "../assets/Mostread/readstory4.webp";
+import r5 from "../assets/Mostread/readstory5.webp";
+import r6 from "../assets/Mostread/readstory6.webp";
+import r7 from "../assets/Mostread/readstory7.webp";
+import r8 from "../assets/Mostread/readstory8.webp";
+import r9 from "../assets/Mostread/readstory9.webp";
+import r10 from "../assets/Mostread/readstory10.webp";
+import r11 from "../assets/Mostread/readstory11.webp";
+import r12 from "../assets/Mostread/readstory12.webp";
+import r13 from "../assets/Mostread/readstory13.webp";
+import r14 from "../assets/Mostread/readstory14.webp";
+import r15 from "../assets/Mostread/readstory15.webp";
+import r16 from "../assets/Mostread/readstory16.webp";
+import r17 from "../assets/Mostread/readstory17.webp";
+import r18 from "../assets/Mostread/readstory18.webp";
 
 const IMAGES = [
   r1, r2, r3, r4, r5, r6, r7, r8,

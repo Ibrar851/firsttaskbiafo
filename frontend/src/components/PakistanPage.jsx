@@ -4,42 +4,42 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // ----- HEADLINES -----
-import h1 from "../assets/pakistan/headline1.webp";
-import h2 from "../assets/pakistan/headline2.webp";
-import h3 from "../assets/pakistan/headline3.webp";
-import h4 from "../assets/pakistan/headline4.webp";
-import h5 from "../assets/pakistan/headline5.webp";
-import h6 from "../assets/pakistan/headline6.webp";
-import h7 from "../assets/pakistan/headline7.webp";
-import h8 from "../assets/pakistan/headline8.webp";
-import h9 from "../assets/pakistan/headline9.webp";
-import h10 from "../assets/pakistan/headline10.webp";
+import h1 from "../assets/Pakistan/headline1.webp";
+import h2 from "../assets/Pakistan/headline2.webp";
+import h3 from "../assets/Pakistan/headline3.webp";
+import h4 from "../assets/Pakistan/headline4.webp";
+import h5 from "../assets/Pakistan/headline5.webp";
+import h6 from "../assets/Pakistan/headline6.webp";
+import h7 from "../assets/Pakistan/headline7.webp";
+import h8 from "../assets/Pakistan/headline8.webp";
+import h9 from "../assets/Pakistan/headline9.webp";
+import h10 from "../assets/Pakistan/headline10.webp";
 
 // ----- HIGHLIGHTS -----
-import hl1 from "../assets/pakistan/highlight1.webp";
-import hl2 from "../assets/pakistan/highlight2.webp";
-import hl3 from "../assets/pakistan/highlight3.webp";
-import hl4 from "../assets/pakistan/highlight4.webp";
-import hl5 from "../assets/pakistan/highlight5.webp";
-import hl6 from "../assets/pakistan/highlight6.webp";
-import hl7 from "../assets/pakistan/highlight7.webp";
-import hl8 from "../assets/pakistan/highlight8.webp";
-import hl9 from "../assets/pakistan/highlight9.webp";
-import hl10 from "../assets/pakistan/highlight10.webp";
-import hl11 from "../assets/pakistan/highlight11.webp";
-import hl12 from "../assets/pakistan/highlight12.webp";
+import hl1 from "../assets/Pakistan/highlight1.webp";
+import hl2 from "../assets/Pakistan/highlight2.webp";
+import hl3 from "../assets/Pakistan/highlight3.webp";
+import hl4 from "../assets/Pakistan/highlight4.webp";
+import hl5 from "../assets/Pakistan/highlight5.webp";
+import hl6 from "../assets/Pakistan/highlight6.webp";
+import hl7 from "../assets/Pakistan/highlight7.webp";
+import hl8 from "../assets/Pakistan/highlight8.webp";
+import hl9 from "../assets/Pakistan/highlight9.webp";
+import hl10 from "../assets/Pakistan/highlight10.webp";
+import hl11 from "../assets/Pakistan/highlight11.webp";
+import hl12 from "../assets/Pakistan/highlight12.webp";
 
 // ----- MOST READ -----
-import r1 from "../assets/pakistan/readstory1.webp";
-import r2 from "../assets/pakistan/readstory2.webp";
-import r3 from "../assets/pakistan/readstory3.webp";
-import r4 from "../assets/pakistan/readstory4.webp";
-import r5 from "../assets/pakistan/readstory5.webp";
-import r6 from "../assets/pakistan/readstory6.webp";
-import r7 from "../assets/pakistan/readstory7.webp";
-import r8 from "../assets/pakistan/readstory8.webp";
-import r9 from "../assets/pakistan/readstory9.webp";
-import r10 from "../assets/pakistan/readstory10.webp";
+import r1 from "../assets/Pakistan/readstory1.webp";
+import r2 from "../assets/Pakistan/readstory2.webp";
+import r3 from "../assets/Pakistan/readstory3.webp";
+import r4 from "../assets/Pakistan/readstory4.webp";
+import r5 from "../assets/Pakistan/readstory5.webp";
+import r6 from "../assets/Pakistan/readstory6.webp";
+import r7 from "../assets/Pakistan/readstory7.webp";
+import r8 from "../assets/Pakistan/readstory8.webp";
+import r9 from "../assets/Pakistan/readstory9.webp";
+import r10 from "../assets/Pakistan/readstory10.webp";
 
 // ----- DATA -----
 const headlines = [
