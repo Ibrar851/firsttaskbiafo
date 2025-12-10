@@ -7,20 +7,20 @@ import "slick-carousel/slick/slick-theme.css";
 import "react-calendar/dist/Calendar.css";
 
 // ---------- Images ----------
-import Opinion1 from "../assets/Opinion/Opinion1.png";
-import OpinionAC from "../assets/Opinion/OpinionAC.png";
-import OpinionCard1 from "../assets/Opinion/opinionCard1.png";
-import OpinionCard2 from "../assets/Opinion/opinionCard2.png";
-import OpinionCard3 from "../assets/Opinion/opinionCard3.png";
-import OpinionSlide1 from "../assets/Opinion/OpinionSlide1.png";
-import OpinionSlide2 from "../assets/Opinion/OpinionSlide2.png";
-import OpinionSlide3 from "../assets/Opinion/OpinionSlide3.png";
-import OpinionAnalysis1 from "../assets/Opinion/OpinionAnalysis1.png";
-import OpinionAnalysis2 from "../assets/Opinion/OpinionAnalysis2.png";
-import OpinionAnalysis3 from "../assets/Opinion/OpinionAnalysis3.png";
-import Cartoon1 from "../assets/Opinion/Cartoon1.png";
-import Cartoon2 from "../assets/Opinion/Cartoon2.png";
-import Cartoon3 from "../assets/Opinion/Cartoon3.png";
+import Opinion1 from "../assets/opinion/opinion1.png";
+import OpinionAC from "../assets/opinion/opinionAC.png";
+import OpinionCard1 from "../assets/opinion/opinionCard1.png";
+import OpinionCard2 from "../assets/opinion/opinionCard2.png";
+import OpinionCard3 from "../assets/opinion/opinionCard3.png";
+import OpinionSlide1 from "../assets/opinion/opinionSlide1.png";
+import OpinionSlide2 from "../assets/opinion/opinionSlide2.png";
+import OpinionSlide3 from "../assets/opinion/opinionSlide3.png";
+import OpinionAnalysis1 from "../assets/opinion/opinionAnalysis1.png";
+import OpinionAnalysis2 from "../assets/opinion/opinionAnalysis2.png";
+import OpinionAnalysis3 from "../assets/opinion/opinionAnalysis3.png";
+import Cartoon1 from "../assets/opinion/cartoon1.png";
+import Cartoon2 from "../assets/opinion/cartoon2.png";
+import Cartoon3 from "../assets/opinion/cartoon3.png";
 
 // ---------- Reusable Data ----------
 const cardsSection2 = [

@@ -2,26 +2,26 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 // Images
-import Hed1 from "../assets/Popular/hed1.webp";
-import Hed2 from "../assets/Popular/hed2.webp";
-import Hed3 from "../assets/Popular/hed3.webp";
-import Hed4 from "../assets/Popular/hed4.webp";
-import Hed5 from "../assets/Popular/hed5.webp";
-import Hed6 from "../assets/Popular/hed6.webp";
-import Hed7 from "../assets/Popular/hed7.webp";
-import Hed8 from "../assets/Popular/hed8.webp";
-import Hed9 from "../assets/Popular/hed9.webp";
-import Hed10 from "../assets/Popular/hed10.webp";
+import Hed1 from "../assets/popular/hed1.webp";
+import Hed2 from "../assets/popular/hed2.webp";
+import Hed3 from "../assets/popular/hed3.webp";
+import Hed4 from "../assets/popular/hed4.webp";
+import Hed5 from "../assets/popular/hed5.webp";
+import Hed6 from "../assets/popular/hed6.webp";
+import Hed7 from "../assets/popular/hed7.webp";
+import Hed8 from "../assets/popular/hed8.webp";
+import Hed9 from "../assets/popular/hed9.webp";
+import Hed10 from "../assets/popular/hed10.webp";
 
-import Stable1 from "../assets/Popular/stable1.webp";
-import Stable2 from "../assets/Popular/stable2.webp";
-import Stable3 from "../assets/Popular/stable3.webp";
+import Stable1 from "../assets/popular/stable1.webp";
+import Stable2 from "../assets/popular/stable2.webp";
+import Stable3 from "../assets/popular/stable3.webp";
 
-import Need1 from "../assets/Popular/need1.webp";
-import Need2 from "../assets/Popular/need2.webp";
-import Need3 from "../assets/Popular/need3.webp";
-import Need4 from "../assets/Popular/need4.webp";
-import Need5 from "../assets/Popular/need5.webp";
+import Need1 from "../assets/popular/need1.webp";
+import Need2 from "../assets/popular/need2.webp";
+import Need3 from "../assets/popular/need3.webp";
+import Need4 from "../assets/popular/need4.webp";
+import Need5 from "../assets/popular/need5.webp";
 
 // ===== Reusable Section Component =====
 const ArticleSection = ({ title, subtitle, articles }) => (

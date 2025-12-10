@@ -3,24 +3,24 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6";
 
 // Assets
-import Mainpic from "../assets/Prism/main-pic.webp";
-import Card1 from "../assets/Prism/card1.webp";
-import Card2 from "../assets/Prism/card2.webp";
-import Card3 from "../assets/Prism/card3.webp";
-import Card4 from "../assets/Prism/card4.webp";
-import Logo from "../assets/Prism/logo.webp";
-import Hed1 from "../assets/Prism/hed1.webp";
-import Hed2 from "../assets/Prism/hed2.webp";
-import Hed3 from "../assets/Prism/hed3.webp";
-import Hed4 from "../assets/Prism/hed4.webp";
-import Hed5 from "../assets/Prism/hed5.webp";
-import Hed6 from "../assets/Prism/hed6.webp";
-import Hed7 from "../assets/Prism/hed7.webp";
-import Hed8 from "../assets/Prism/hed8.webp";
-import Hed9 from "../assets/Prism/hed9.webp";
- import Hed10 from "../assets/Prism/hed10.webp";
-import Hed11 from "../assets/Prism/hed11.webp";
-import Hed12 from "../assets/Prism/hed12.webp";
+import Mainpic from "../assets/prism/main-pic.webp";
+import Card1 from "../assets/prism/card1.webp";
+import Card2 from "../assets/prism/card2.webp";
+import Card3 from "../assets/prism/card3.webp";
+import Card4 from "../assets/prism/card4.webp";
+import Logo from "../assets/prism/logo.webp";
+import Hed1 from "../assets/prism/hed1.webp";
+import Hed2 from "../assets/prism/hed2.webp";
+import Hed3 from "../assets/prism/hed3.webp";
+import Hed4 from "../assets/prism/hed4.webp";
+import Hed5 from "../assets/prism/hed5.webp";
+import Hed6 from "../assets/prism/hed6.webp";
+import Hed7 from "../assets/prism/hed7.webp";
+import Hed8 from "../assets/prism/hed8.webp";
+import Hed9 from "../assets/prism/hed9.webp";
+ import Hed10 from "../assets/prism/hed10.webp";
+import Hed11 from "../assets/prism/hed11.webp";
+import Hed12 from "../assets/prism/hed12.webp";
 
 // Data
 const articles = [
