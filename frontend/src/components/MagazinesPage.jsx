@@ -16,7 +16,7 @@ import Img2_3 from "../assets/magazines/img2_3.webp";
 import Img2_4 from "../assets/magazines/img2_4.webp";
 import Img2_5 from "../assets/magazines/img2_5.webp";
 import Img2_6 from "../assets/magazines/img2_6.webp";
-import Img2_7 from "../assets/magazines/img2_7.webp";m
+import Img2_7 from "../assets/magazines/img2_7.webp";
 import Slide1 from "../assets/magazines/slide1.webp";
 import Slide2 from "../assets/magazines/slide2.webp";
 import Slide3 from "../assets/magazines/slide3.webp";
@@ -34,7 +34,7 @@ import Mp8 from "../assets/magazines/mp8.webp";
 import Mp9 from "../assets/magazines/mp9.webp";
 import Mp10 from "../assets/magazines/mp10.webp";
 import Mp11 from "../assets/magazines/mp11.webp";
-import Mp12 from "../assets/magazines/mp12.webp";m
+import Mp12 from "../assets/magazines/mp12.webp";
 // ===== Container 3 a & b(8 images) =====
 import Ab from "../assets/magazines/ab.png";
 import Ab1 from "../assets/magazines/ab1.webp";
